@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Lead Tracker",
+  "version": "1.0",
+  "description": "Track the lead and Save",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "onwater.png-removebg-preview.png"
+    }
+  },
+  "permissions": ["storage"]
+}
