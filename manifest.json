@@ -9,5 +9,5 @@
       "48": "onwater.png-removebg-preview.png"
     }
   },
-  "permissions": ["storage"]
+  "permissions": ["tabs", "storage"]
 }

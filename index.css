@@ -17,7 +17,7 @@ input {
     box-sizing: border-box;
 }
 
-button {
+#input-Btn {
     color:#fff;
     border-radius:5px;
     size:50px;
@@ -30,6 +30,18 @@ button {
     transition: all ease;
 }
 
+#clear-Btn{
+    color:#4FC3F7;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:5px;
+    size:50px;
+    padding:8px;
+    background-color: white;
+    margin-top: 4px;
+    cursor:pointer;
+    border:1px solid #4FC3F7;
+}
+
 ul {
     margin-top:20px;
     list-style: none;
@@ -39,4 +51,17 @@ ul {
 ul a{
     margin-top:5px;
     color:#0D47A1;
+}
+
+#saveTab-Btn {
+    color:#fff;
+    border-radius:5px;
+    size:50px;
+    padding:8px;
+    background-color: #E1F5FE;
+    background:linear-gradient(135deg, #4FC3F7, #81D4FA);
+    margin-top: 4px;
+    cursor:pointer;
+    border:none;
+    transition: all ease;
 }
