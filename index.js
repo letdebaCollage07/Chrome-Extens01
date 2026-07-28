@@ -91,7 +91,6 @@ function render(leads) {
     })
 }
 
-// Delete selected leads
 deleteSelectedBtn.addEventListener("click", function(){
     const checkboxes = document.querySelectorAll('.lead-checkbox:checked')
     
@@ -100,12 +99,12 @@ deleteSelectedBtn.addEventListener("click", function(){
         return
     }
     
-    // Get indices in reverse order to avoid index shifting
+
     const indicesToDelete = Array.from(checkboxes)
         .map(checkbox => parseInt(checkbox.dataset.index))
         .sort((a, b) => b - a)
     
-    // Remove items from array
+
     indicesToDelete.forEach(index => {
         myLeads.splice(index, 1)
     })
